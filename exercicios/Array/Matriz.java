@@ -28,7 +28,7 @@ public class Matriz {
 					matriz[linha][coluna] = leia.nextInt();
 				}
 
-				// Reecebendo valores que não são maior do que 10
+				// Reecebendo valores que não são maiores do que 10
 				else {
 					System.out.println("Preencha um valor");
 					matriz[linha][coluna] = leia.nextInt();
