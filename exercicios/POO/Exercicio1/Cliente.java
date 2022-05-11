@@ -22,7 +22,7 @@ public class Cliente {
 	
 	public void imprimirDados() {
 		System.out.println("\n\tInformações do Cliente\n\nNome do cliente: " + nome + "\nIdade do cliente: " + idade
-				+ "\nGenêro do cliente: " + genero + "\nProfissão do cliente" + profissao);
+				+ "\nGenêro do cliente: " + genero + "\nProfissão do cliente: " + profissao);
 	}
 
 	// Getters and setters
@@ -58,4 +58,5 @@ public class Cliente {
 	public void setProfissao(String profissao) {
 		this.profissao = profissao;
 	}
+
 }
