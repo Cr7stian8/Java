@@ -2,7 +2,7 @@
 Leia uma matriz 3 x 3, conte e escreva quantos valores maiores que 10 ela possui
  */
 
-package exerciciosHoje;
+package Array;
 
 import java.util.Scanner;
 

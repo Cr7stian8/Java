@@ -7,7 +7,7 @@ A[0], A[1] e A[5] do vetor e mostre na tela esta soma.
 (c) Modifique o vetor na posição 4, atribuindo a esta posição o valor 100. 
 (d) Mostre na tela cada valor do vetor A, um em cada linha.
  */
-package exerciciosHoje;
+package Array;
 
 public class Vetor {
 

@@ -4,7 +4,7 @@ comportamentos (observe a tabela), utilize os seus conhecimentos e distribua as
 características de forma que tudo o que for comum a todos os animais fique na classe
 Animal:
  */
-package Herança;
+package Herança.exercicio1;
 
 public class Animal {
 	//Atributos
@@ -24,6 +24,14 @@ public class Animal {
 	
 	public String getLocomocao() {
 		return nome;
+	}
+
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
 	}
 
 	public int getIdade() {

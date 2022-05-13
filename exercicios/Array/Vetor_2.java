@@ -7,7 +7,7 @@
 • A quantidade de números ímpares digitados.
 
  */
-package exerciciosHoje;
+package Array;
 
 import java.util.Scanner;
 

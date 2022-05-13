@@ -10,7 +10,7 @@ Na terceira opção o valor da constante deve ser lido e o resultado
 da adição da constante deve ser armazenado na própria matriz.
 
  */
-package exerciciosHoje;
+package Array;
 
 import java.util.Scanner;
 
