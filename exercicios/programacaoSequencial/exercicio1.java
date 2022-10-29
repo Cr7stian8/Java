@@ -3,7 +3,7 @@ package programacaoSequencial;
 import java.util.Scanner;
 
 /*
-Faça um sistema que leia a idade de uma pessoa expressa em anos, meses e dias e mostre-a
+FaÃ§a um sistema que leia a idade de uma pessoa expressa em anos, meses e dias e mostre-a
 expressa apenas em dia
  */
 
@@ -29,6 +29,6 @@ public class exercicio1 {
 		
 			meses_em_dia = meses*30;
 			dias_de_vida = meses_em_dia+anos_em_dias+dias;
-			System.out.println("Você viveu : "+dias_de_vida+" Dias");
+			System.out.println("Vocï¿½ viveu : "+dias_de_vida+" Dias");
 	}
 }

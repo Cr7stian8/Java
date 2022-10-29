@@ -1,7 +1,7 @@
 /*
-Ler 10 números e imprimir quantos são pares e quantos são ímpares. 
+Ler 10 nï¿½meros e imprimir quantos sï¿½o pares e quantos sï¿½o ï¿½mpares. 
 */
-package exerciciosHoje;
+package RepetiÃ§Ã£o;
 
 import java.util.Scanner;
 
@@ -11,12 +11,12 @@ public class For_2 {
 		int loop,numero,pares=0,impares=0;
 		//Criando sistema de entrada
 		try (Scanner leia = new Scanner (System.in)) {
-			//Criando loop para receber os números
+			//Criando loop para receber os nï¿½meros
 			for( loop=0 ; loop<10; loop++ ) {
-				//Recebendo os números
-				System.out.println("Digite um número inteiro: ");
+				//Recebendo os nï¿½meros
+				System.out.println("Digite um nï¿½mero inteiro: ");
 				numero = leia.nextInt();
-				//Verificando se é par ou ímpar
+				//Verificando se ï¿½ par ou ï¿½mpar
 				if( numero%2 == 0) {
 					pares++;
 				}else {
@@ -24,9 +24,9 @@ public class For_2 {
 				}
 			}
 		}
-		//mostrando quantidade de par e ímpar
-		System.out.println("Quantidade de números pares: "+pares);
-		System.out.println("Quantidade de números ímpares: "+impares);
+		//mostrando quantidade de par e ï¿½mpar
+		System.out.println("Quantidade de nï¿½meros pares: "+pares);
+		System.out.println("Quantidade de nï¿½meros ï¿½mpares: "+impares);
 	}
 
 }

@@ -1,21 +1,21 @@
-package Herança.exercicio1;
+package HeranÃ§a;
 
 public class Cavalo extends Animal{
 	
 	//Criando atributo da subclasse
 	private String acao;
 	
-	//Criando método Construtor
+	//Criando mï¿½todo Construtor
 	public Cavalo(String nome, int idade,String som,String acao) {
 		super(nome, idade, som);
 		this.acao=acao;
 	}
 	
 	public void imprimirInfo() {
-		System.out.println("O nome do Cavalo é: "+getNome());
+		System.out.println("O nome do Cavalo ï¿½: "+getNome());
 		System.out.println("O cavelo tem: "+getIdade()+" Anos");
-		System.out.println("O som do Cavalo é: "+getSom());
-		System.out.println("A ação do cavalo é: "+acao);
+		System.out.println("O som do Cavalo ï¿½: "+getSom());
+		System.out.println("A aï¿½ï¿½o do cavalo ï¿½: "+acao);
 	}
 
 	public String getAcao() {

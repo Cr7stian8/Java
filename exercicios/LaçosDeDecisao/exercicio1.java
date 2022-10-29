@@ -1,25 +1,25 @@
-package LaçosDeDecisão;
+package LaÃ§osDeDecisao;
 
 import java.util.Scanner;
 
 /*
-Faça um exercício que recebe três inteiros e diga qual deles é o maior 
+Faï¿½a um exercï¿½cio que recebe trï¿½s inteiros e diga qual deles ï¿½ o maior 
  */
 public class exercicio1 {
 	public static void main(String[] args) {
 
-		// Declarando variáveis
+		// Declarando variï¿½veis
 		int n1, n2, n3, maior = 0;
 
 		// Criando leia e importando biblioteca
 		try (Scanner leia = new Scanner(System.in)) {
 
-			// Recebendo os números
-			System.out.println("Digite um número: ");
+			// Recebendo os nï¿½meros
+			System.out.println("Digite um nï¿½mero: ");
 			n1 = leia.nextInt();
-			System.out.println("Digite um número: ");
+			System.out.println("Digite um nï¿½mero: ");
 			n2 = leia.nextInt();
-			System.out.println("Digite um número: ");
+			System.out.println("Digite um nï¿½mero: ");
 			n3 = leia.nextInt();
 
 			if (n1 > maior) {
@@ -31,7 +31,7 @@ public class exercicio1 {
 			if (n3 > maior) {
 				maior = n3;
 			}
-			System.out.println("O maior número é: " + maior);
+			System.out.println("O maior nï¿½mero ï¿½: " + maior);
 		}
 	}
 }

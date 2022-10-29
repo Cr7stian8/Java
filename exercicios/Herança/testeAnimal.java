@@ -1,13 +1,13 @@
-package Herança.exercicio1;
+package HeranÃ§a;
 
 public class testeAnimal {
 
 	public static void main(String[] args) {
 		System.out.println("*****Dados do cavalo*****");
-		Cavalo cavalo1 = new Cavalo ("José",25,"Irreeee","Correr");
+		Cavalo cavalo1 = new Cavalo ("Josï¿½",25,"Irreeee","Correr");
 		cavalo1.imprimirInfo();
 		
-		System.out.println("*****Dados da preguiça*****");
+		System.out.println("*****Dados da preguiï¿½a*****");
 		Preguica preguica1 = new Preguica ("Maria",5,"Desconhecido","Suibir em arvores");
 		preguica1.imprimirInfo();
 		

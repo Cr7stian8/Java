@@ -1,31 +1,33 @@
 /*
- Escrever um programa que receba vários números inteiros no teclado. E no
-final imprimir a média dos números múltiplos de 3. Para sair digitar
+ Escrever um programa que receba vï¿½rios nï¿½meros inteiros no teclado. E no
+final imprimir a mï¿½dia dos nï¿½meros mï¿½ltiplos de 3. Para sair digitar
 0(zero).
  */
-package exerciciosHoje;
+package RepetiÃ§Ã£o;
 
 import java.util.Scanner;
 
 public class doWhile_2 {
 	public static void main(String[] args) {
 		try (Scanner input = new Scanner(System.in)) {
+
 			// declarando variaveis
 			int numero, multiplo3 = 0, divisor = 0, media;
 			do {
-				//Recebendo o número
-				System.out.println("Digite um número: ");
+				//Recebendo o nÃºmero
+				System.out.println("Digite um nï¿½mero: ");
 				numero = input.nextInt();
-				//Verificando se o número é multiplo de 3
+
+				//Verificando se o nÃºmero Ã© multiplo de 3
 				if (numero % 3 == 0 && numero != 0) {
 					multiplo3 += numero;
 					divisor++;
 				}
 			} while (numero != 0);
 
-			// Calculando a média dos multiplos de 3
+			// Calculando a mÃ©dia dos multiplos de 3
 			media = multiplo3 / divisor;
-			System.out.println("A média dos números multiplos de três é: " + media);
+			System.out.println("A mÃ©dia dos nÃºmeros multiplos de trÃªs Ã©: " + media);
 		}
 	}
 }

@@ -1,4 +1,4 @@
-package exerciciosHoje;
+package Exercicio1;
 
 public class Cliente {
 
@@ -9,7 +9,7 @@ public class Cliente {
 	private String genero;
 	private String profissao;
 
-	// Método especial 
+	// Mï¿½todo especial 
 
 	public Cliente(String nome, String idade, String genero, String profissao) {
 		this.nome = nome;
@@ -18,11 +18,11 @@ public class Cliente {
 		this.profissao = profissao;
 	}
 
-	//métodos adicionais
+	//mï¿½todos adicionais
 	
 	public void imprimirDados() {
-		System.out.println("\n\tInformações do Cliente\n\nNome do cliente: " + nome + "\nIdade do cliente: " + idade
-				+ "\nGenêro do cliente: " + genero + "\nProfissão do cliente: " + profissao);
+		System.out.println("\n\tInformaï¿½ï¿½es do Cliente\n\nNome do cliente: " + nome + "\nIdade do cliente: " + idade
+				+ "\nGenï¿½ro do cliente: " + genero + "\nProfissï¿½o do cliente: " + profissao);
 	}
 
 	// Getters and setters

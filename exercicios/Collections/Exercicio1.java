@@ -1,7 +1,7 @@
 /*
-3- Crie uma um programa para trabalhar com estoque de uma loja, o programa deverá
+3- Crie uma um programa para trabalhar com estoque de uma loja, o programa deverï¿½
 trabalhar com Collection do tipo List do Java para manipular os dados desse estoque, o
-programa deverá atender as seguintes funcionalidades:
+programa deverï¿½ atender as seguintes funcionalidades:
 
 Armazenar dados da List
 
@@ -18,14 +18,14 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class Exercicio {
+public class Exercicio1 {
 
 	public static void main(String[] args) {
 
-		// Criando vetor dinâmico
+		// Criando vetor dinï¿½mico
 		List<String> estoque = new ArrayList<>();
 
-		// opção do menu e produto selecionado
+		// opï¿½ï¿½o do menu e produto selecionado
 		int op, produtoSelecionado, contador = 1;
 
 		// Iniciando o produto
@@ -55,7 +55,7 @@ public class Exercicio {
 				}
 
 				else if (op == 3) { // Caso 3
-					// Rodando pela lista dinâmica
+					// Rodando pela lista dinï¿½mica
 					System.out.println("****** Estoque ******");
 					for (String i : estoque) {
 						// Escrevendo cada produto
@@ -77,7 +77,7 @@ public class Exercicio {
 					contador = 1;
 				} else if (op == 4) {
 
-					// Deixando agradável
+					// Deixando agradï¿½vel
 					System.out.println("**** ITENS EM ESTOQUE *****\n");
 
 					// Mostrando todos os dados da lista

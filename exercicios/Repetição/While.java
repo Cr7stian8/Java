@@ -1,10 +1,9 @@
 /*
-Solicitar a idade de várias pessoas e imprimir: Total de pessoas com menos de
+Solicitar a idade de vÃ¡rias pessoas e imprimir: Total de pessoas com menos de
 21 anos. Total de pessoas com mais de 50 anos. O programa termina quando
 idade for =-99. 
  */
-
-package exerciciosHoje;
+package RepetiÃ§Ã£o;
 
 import java.util.Scanner;
 
@@ -21,9 +20,9 @@ public class While {
 				System.out.println("Digite a sua idade: ");
 				idade = leia.nextInt();
 
-				// Idade inválida
+				// Idade invï¿½lida
 				if (idade < 0) {
-					System.out.println("Idade Inválida !!");
+					System.out.println("Idade InvÃ¡lida !!");
 				}
 
 				// Contando idade menor do que vinte e um e maior que 51

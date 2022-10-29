@@ -1,10 +1,10 @@
 /*
-Faça um programa que receba a idade de uma pessoa e mostre na saída em qual categoria ela se encontra:
+Faï¿½a um programa que receba a idade de uma pessoa e mostre na saï¿½da em qual categoria ela se encontra:
 10-14 infantil
 15-17 juvenil
 18-25 adulto
  */
-package lacoRepeticao;
+package LaÃ§osDeDecisao;
 
 import java.util.Scanner;
 
@@ -17,20 +17,20 @@ public class exercicio2 {
 			int idade;
 			System.out.println("Digite sua idade");
 			idade = input.nextInt();
-			// Condição para estar em alguma categoria
+			// Condiï¿½ï¿½o para estar em alguma categoria
 			if (idade >= 10 && idade <= 25) {
-				// Testando à qual categoria a idade pertence
+				// Testando ï¿½ qual categoria a idade pertence
 				if (idade >= 10 && idade < 15) {
-					System.out.println("--> Você está na categoria 'infântil'");
+					System.out.println("--> Vocï¿½ estï¿½ na categoria 'infï¿½ntil'");
 				} else if (idade >= 15 && idade < 18) {
-					System.out.println("--> Você está na categoria 'Juvenil'");
+					System.out.println("--> Vocï¿½ estï¿½ na categoria 'Juvenil'");
 				} else {
-					System.out.println("--> Você está na categoria dos Adultos");
+					System.out.println("--> Vocï¿½ estï¿½ na categoria dos Adultos");
 				}
 			}
-			// Mensagem a pessoa cuja idade não possui uma categoria
+			// Mensagem a pessoa cuja idade nï¿½o possui uma categoria
 			else {
-				System.out.println("A idade digitada não se enquadra em nenhuma categoria");
+				System.out.println("A idade digitada nï¿½o se enquadra em nenhuma categoria");
 			}
 		}
 	}

@@ -1,13 +1,13 @@
 /*
-1) Crie uma classe cliente e apresente os atributos e métodos referentes
+1) Crie uma classe cliente e apresente os atributos e mï¿½todos referentes
 esta classe, em seguida crie um objeto cliente, defina as instancias deste
-objeto e apresente as informações deste objeto no console.
+objeto e apresente as informaï¿½ï¿½es deste objeto no console.
  */
 
-package exerciciosHoje;
+package Exercicio1;
 
 public class exercicio1 {
-	//Função main para o programa rodar
+	//Funï¿½ï¿½o main para o programa rodar
 	public static void main(String[] args) {
 		//Criando um cliente
 		Cliente cliente1 = new Cliente("Cristiano", "18 anos", "Masculino", "Desenvolvedor Java");

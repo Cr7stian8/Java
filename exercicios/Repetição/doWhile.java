@@ -1,9 +1,9 @@
 /*
-Crie um programa que leia um número do teclado até que encontre um
-número igual a zero. No final, mostre a soma dos números
+Crie um programa que leia um nï¿½mero do teclado atï¿½ que encontre um
+nï¿½mero igual a zero. No final, mostre a soma dos nï¿½meros
 digitados.
  */
-package exerciciosHoje;
+package RepetiÃ§Ã£o;
 
 import java.util.Scanner;
 
@@ -13,14 +13,14 @@ public class doWhile {
 		try (Scanner leia = new Scanner(System.in)) {
 			// Criando variavel do numero
 			int numero, soma = 0;
-			// Recebendo o número e somando os números digitados
+			// Recebendo o nï¿½mero e somando os nï¿½meros digitados
 			do {
-				System.out.println("Digite um número inteiro: ");
+				System.out.println("Digite um nï¿½mero inteiro: ");
 				numero = leia.nextInt();
 				soma += numero;
 			} while (numero != 0);
-			// Excrevendo a soma dos números
-			System.out.println("A soma dos números é: " + soma);
+			// Excrevendo a soma dos nï¿½meros
+			System.out.println("A soma dos nï¿½meros ï¿½: " + soma);
 		}
 	}
 }

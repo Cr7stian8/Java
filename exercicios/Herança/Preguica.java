@@ -1,21 +1,21 @@
-package Herança.exercicio1;
+package HeranÃ§a;
 
 public class Preguica extends Animal{
 	
 	//Criando atributo da subclasse
 	private String acao;
 	
-	//Criando método Construtor
+	//Criando mï¿½todo Construtor
 	public Preguica(String nome, int idade,String som,String acao) {
 		super(nome, idade, som);
 		this.acao=acao;
 	}
 	
 	public void imprimirInfo() {
-		System.out.println("O nome da Preguiça é: "+getNome());
-		System.out.println("O preguiça tem: "+getIdade()+" Anos");
-		System.out.println("O som da preguiça é: "+getSom());
-		System.out.println("A ação da preguiça é: "+acao);
+		System.out.println("O nome da Preguiï¿½a ï¿½: "+getNome());
+		System.out.println("O preguiï¿½a tem: "+getIdade()+" Anos");
+		System.out.println("O som da preguiï¿½a ï¿½: "+getSom());
+		System.out.println("A aï¿½ï¿½o da preguiï¿½a ï¿½: "+acao);
 	}
 
 	public String getAcao() {

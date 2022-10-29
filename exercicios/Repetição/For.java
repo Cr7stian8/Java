@@ -1,24 +1,24 @@
 /*
-Informar todos os números de 1000 a 1999 que quando divididos por 11
+Informar todos os nï¿½meros de 1000 a 1999 que quando divididos por 11
 obtemos resto = 5. (FOR)
  */
 
-package exerciciosHoje;
+package RepetiÃ§Ã£o;
 
 public class For {
 
 	public static void main(String[] args) {
 
-		// Declarando o número
+		// Declarando o nï¿½mero
 		int numero;
 
-		// Laço para definir o intervalo
+		// Laï¿½o para definir o intervalo
 		for (numero = 1000; numero < 2000; numero++) {
 
-			// Condição para informar o número
+			// Condiï¿½ï¿½o para informar o nï¿½mero
 			if (numero % 11 == 5) {
 
-				// Exibindo números que divididos por 11 possuem resto igual a 5
+				// Exibindo nï¿½meros que divididos por 11 possuem resto igual a 5
 				System.out.println(numero);
 			}
 		}
